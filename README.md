@@ -1,12 +1,57 @@
-# React + Vite
+# 🐱 Cat Fact Generator – React + Vite + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple web app that fetches a random cat fact using a public API and displays it on the screen. Built using **React**, **Vite**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ One-click random fact fetch
+- ✅ Uses async/await and fetch API
+- ✅ Clean, responsive UI with Tailwind CSS
+- ✅ Error handling included
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📷 Preview
+
+![screenshot](./ss1.png) -->
+
+---
+
+## 🔧 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [catfact.ninja API](https://catfact.ninja)
+
+---
+
+## 📦 Setup Instructions
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/cat-fact-app.git
+cd cat-fact-app
+
+
+2. Install dependencies
+npm install
+
+
+3. Run the development server
+
+npm run dev
+Visit http://localhost:5173 to view the app.
+
+📡 API Used
+Endpoint: https://catfact.ninja/fact
+
+Method: GET
+
+Returns a random cat fact in JSON format.
+
+🧑‍💻 Author
+Mamta Vyas
